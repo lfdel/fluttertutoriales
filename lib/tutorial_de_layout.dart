@@ -17,15 +17,15 @@ class TutorialDeLayout extends StatelessWidget {
               fit: BoxFit.cover,
             ),
             _titleSection,
-            _buttonSecction(color),
-            _textSecction,
+            _buttonSection(color),
+            _textSection,
           ],
         ),
       ),
     );
   }
 
-  Widget _textSecction = Container(
+  Widget _textSection = Container(
     padding: const EdgeInsets.all(32),
     child: Text(
       'Lake Oeschinen lies at the foot of the Blüemlisalp in the Bernese '
@@ -68,7 +68,7 @@ class TutorialDeLayout extends StatelessWidget {
     ),
   );
 
-  Widget _buttonSecction(Color color) {
+  Widget _buttonSection(Color color) {
     return Container(
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
