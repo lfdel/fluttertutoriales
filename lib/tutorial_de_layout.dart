@@ -12,7 +12,6 @@ class TutorialDeLayout extends StatelessWidget {
           children: [
             Image.asset(
               'lake.jpg',
-              width: double.infinity,
               height: 240,
               fit: BoxFit.cover,
             ),
